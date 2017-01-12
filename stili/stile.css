@@ -1,0 +1,460 @@
+@font-face{
+	font-family: 'Arka_solid';
+	src: url('../Arka_solid.ttf');
+	font-weight: bolder;
+}
+
+body {
+	margin: 0px;
+	padding: 0;
+	background: #E5E6DD;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14px;
+	color: #50504d;
+	position: relative;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #7D7764;
+}
+
+p, ul, ol {
+	margin: 0px;
+	line-height: 180%;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 100;
+	color: #a65b5b;
+}
+
+#menu-wrapper {
+	overflow: hidden;
+	height: 52px;
+	width: 100%;
+	background: #000000;
+}
+
+#menu {
+	overflow: hidden;
+	height: 52px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 30px;
+	line-height: 52px;
+	border: none;
+	text-decoration: none;
+	text-transform: lowercase;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+
+#menu a:hover, #menu .current_page_item a, #tendina_utente a:hover {
+	background: #dc0000;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#menu .current_page_item a {
+}
+
+/* Page */
+
+#page {
+	overflow: hidden;
+	padding: 20px 20px 40px 20px;
+}
+
+label{
+	text-decoration: none;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 100;
+}
+
+/* Pagina di login */
+
+#login_container{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+#arkanoid_login{
+	text-align: center;
+	font-size: 86px;
+	padding: 25px;
+	font-family: 'Arka_solid';
+	
+	
+}
+
+/* Pagina di aggiunta dell'utente */
+
+.signup_others{
+	margin: 22px 0px 0px 22px;
+}
+
+#signup_container{
+	margin: 22px 0px 0px 22px;
+}
+
+input[type="text"], input[type="password"]{
+  background: white;
+  width: 150px;
+}
+
+#utente_inserito{
+	margin-bottom: 10px;
+}
+
+.errore{
+	text-decoration: none;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+	color: red;
+}
+
+#signup_container input[type="submit"]{
+	display: block;
+	font-size: 20px;
+	font-weight: 100;
+	width: 100px;
+	height: 30px;
+	padding: 15px 20px 10px 45px;
+	color:#666666;
+	text-decoration: none;
+}
+
+input[type="submit"]{
+	display: block;
+	font-weight: 100;
+	height: 30px;
+	color:#666666;
+	text-decoration: none;
+}
+
+input[type="file"]{
+	display: block;
+	font-weight: 100;
+	color:#666666;
+	text-decoration: none;
+}
+
+.titolo{
+	display: block;
+	overflow: hidden;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 42px;
+	font-weight: 300;
+
+}
+
+.titolo_arkanoid{
+	display: block;
+	overflow: hidden;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Arka_solid', sans-serif;
+	font-size: 42px;
+	font-weight: 300;
+
+}
+
+/* Pagina dell'utente */
+
+#tendina_utente{
+	position: absolute;
+	width: 120;
+	height: 60;
+	left: 753px; /* Valore fisso. */
+	top: 52px; /* Valore fisso. */
+	background: black;
+	
+}
+
+#tendina_utente a {
+	display: block;
+	padding: 0px 0px;
+	line-height: 30px;
+	border: none;
+	text-decoration: none;
+	text-transform: lowercase;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 11px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+
+.immagine_utente{
+	display: block;
+	line-height: 52px;
+	border: none;
+	width: 52px;
+	height: 52px;
+}
+
+#gestione_punteggi{
+	width: 120px;
+	margin: auto;
+	padding: 10px 0px 0px 0px;
+	overflow: auto;
+}
+
+/* Form upload immagine. */
+
+#image_change{
+	width: 200px;
+	height: 35px;
+	margin: auto;
+}
+
+#change_image_link{
+	position: absolute;
+	left: 630px;
+	top: 290px;
+	color: #bb000a;
+}
+
+div.tasti{
+	display: block;
+	overflow: hidden;
+	background: black;
+	width: 100%;
+	margin: auto;	
+}
+
+
+.testo{
+	padding: 20px 0px 0px 0px;
+	text-decoration: none;
+	text-transform: lowercase;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+
+}
+
+div.gioco {
+ 
+   width: 582px; /* Dimensioni canvas */
+   height: 500px;
+   margin: auto;
+   background: #ffffff;
+}
+
+div.start_button{
+	padding: 50px 0px 0px 0px;
+	width: 200px;
+	margin: auto;
+}
+
+.canvas {
+	background: -webkit-linear-gradient(#d4e7fc 0%, #ffffff 100%);
+	border: 1px solid black;
+}
+
+div.immagine_utente{
+	display: block;
+	overflow: hidden;
+	padding: 10px 0px 0px 0px;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+.immagine_utente img{
+	
+	width: 200px;
+	height: 200px;
+}
+.informazioni_utente{
+	padding: 10px 0px 0px 0px;
+	width: 300px;
+	height: 50px;
+	margin: auto;
+	text-decoration: none;
+	text-transform: lowercase;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.punteggio{
+	
+	padding: 10px 0px 0px 0px;
+	width: 800px;
+	height: 50px;
+	margin: auto;
+	text-decoration: none;
+	text-transform: lowercase;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	font-weight: 300;
+
+}
+
+/* Pagina gestione dei punteggi */
+
+#box-table-a
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 12px;
+	text-transform: lowercase;
+	text-transform: uppercase;
+	margin: auto;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+	background: -webkit-linear-gradient(#000000 0%, #ffffff 300%); 
+}
+
+.selected_tr{
+	background: green;
+}
+
+#box-table-a th
+{
+	font-size: 14px;
+	font-weight: normal;
+	padding: 8px;
+	
+	border-top: 4px solid #aabcfe;
+	border-bottom: 1px solid #fff;
+	color: #ffffff;
+}
+#box-table-a td
+{
+	padding: 8px; 
+	border-bottom: 1px solid #fff;
+	color: #ffffff;
+	border-top: 1px solid transparent;
+}
+#box-table-a tr:hover td
+{
+	background: red;
+	color: white;
+}
+
+#checkbox_modificators{
+	text-align: center;
+	font-size: 11px;
+}
+
+/* Pagina contatti */
+
+#container_contatti{
+	overflow: hidden;
+}
+
+#immagine_contatti{
+	width: 300px;
+	height: 300px;
+	margin: auto;
+}
+
+#creatore{
+	padding: 30px 0px 0px 0px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-transform: lowercase;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 22px;
+}
+
+/* Pagina di gioco */
+#nascondi_tabella{
+	font-weight: 900;
+	font-size: 20px;
+	
+}
+
+#tasto_rigioca{
+	font-weight: 900;
+	font-size: 25px;
+}
+
+#classifica_sfondo{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 10;
+	background: white;
+	opacity: 0.6;
+	width: 100%;
+	height: 100%;
+}
+
+#classifica_pagina_gioco{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 11;
+	width: 100%;
+	height: 100%;
+	opacity: 1.0;
+	padding: 56px 0px 0px 0px;
+	margin: auto;
+	text-align: center;
+	
+}
+
+#tasto_rigioca{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	z-index: 12;
+	margin: auto;
+	text-align: center;
+}
+
+#oleander{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+	opacity: 0.5;
+	background-image: url('../immagini/oleander.jpg');
+	width: 100%;
+	height: 100%; 
+}
+
